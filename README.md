@@ -1,19 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## dynamic-trees
 
-Things you may want to cover:
+API for dynamic Trees
 
-* Ruby version
 
-* System dependencies
+## Project Details:
+
+* Environment
+
+  > API Rails Project
+
+  > Ruby 2.6.1
+
+  > Rails 5.2.2
+
+  > PostgreSQL
+
 
 * Configuration
 
+  > copy `config/database.yml` from `config/database.yml.example`
+
+* System dependencies
+
 * Database creation
 
-* Database initialization
+  > run `bundle exec rake db:create`
+
+  > run `bundle exec rake db:migrate`
+
+  > run `bundle exec rake db:seed`
 
 * How to run the test suite
 
@@ -21,4 +38,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
+## Production Deploy:
+
+  > copy `config/database.yml` from `config/database.yml.example`
+
+
+## ToDo:
+
+  > Remove the default rails landing page

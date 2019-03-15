@@ -14,7 +14,7 @@ API for dynamic Trees, fetches trees list from https://random-tree.herokuapp.com
 
   > ```/trees/:id``` List tree's childs, it requires a tree id to list it's childs
 
-  > ```/trees/4/parents``` List tree's parents, it requires a tree id to list it's parents
+  > ```/trees/:id/parents``` List tree's parents, it requires a tree id to list it's parents
 
 
 ## Project Details:

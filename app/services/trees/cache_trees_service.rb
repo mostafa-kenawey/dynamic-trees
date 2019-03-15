@@ -1,5 +1,5 @@
 module Trees
-  class CacheTreesService < ::BaseService
+  class CacheTreesService < BaseTreesService
 
     def _execute
       cache_trees_list

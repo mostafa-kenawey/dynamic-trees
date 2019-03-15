@@ -1,9 +1,4 @@
 class BaseService
-  attr_accessor :cache
-
-  def initialize
-    @cache = ACTIVESUPPORT_CACHE
-  end
 
   def execute
     ApplicationRecord.transaction do

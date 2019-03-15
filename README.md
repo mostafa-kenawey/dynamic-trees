@@ -52,8 +52,6 @@ API for dynamic Trees, fetches trees list from https://random-tree.herokuapp.com
 
 ## ToDo:
 
-  > Remove the default rails landing page
-
   > Add API documentation tool
 
   > Add Authentication to the API

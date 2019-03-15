@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       get :parents
     end
   end
+
+  root 'trees#index'
 end

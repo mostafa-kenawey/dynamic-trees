@@ -13,6 +13,10 @@ class TreesController < ApplicationController
     render json: Trees::ChildTreesService.new(params[:id]).execute
   end
 
+  def parents
+    render json: Trees::ParentTreesService.new(params[:id]).execute
+  end
+
   private
 
   def render_trees_list

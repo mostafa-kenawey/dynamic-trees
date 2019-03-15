@@ -43,9 +43,11 @@ API for dynamic Trees, fetches trees list from https://random-tree.herokuapp.com
   > run `bundle exec rake db:seed`
 
 
-## Production Deploy:
+## Production Deploy and Recommendations:
 
   > copy `config/database.yml` from `config/database.yml.example`
+
+  > Change session cache store to caching server [memcache, redis]
 
 
 ## ToDo:

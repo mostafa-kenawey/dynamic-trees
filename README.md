@@ -47,3 +47,13 @@ API for dynamic Trees
 ## ToDo:
 
   > Remove the default rails landing page
+
+  > Add API documentation tool
+
+  > Add Authentication to the API
+
+  > Include test coverage
+
+## recommendations:
+
+  > for the same implementation it's recommended to use a NoSQL database

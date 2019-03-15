@@ -12,7 +12,7 @@ module Trees
       fetch_trees_list
     end
 
-    private
+    protected
 
     def fetch_trees_list
       json_response(gateway_read)

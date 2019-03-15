@@ -9,7 +9,11 @@ class TreesController < ApplicationController
     render_trees_list
   end
 
-  protected
+  def show
+    render json: Trees::ChildTreesService.new(params[:id]).execute
+  end
+
+  private
 
   def render_trees_list
     render json: current_trees_list

@@ -2,11 +2,11 @@ module Trees
   class BaseTreesService < ::BaseService
     attr_accessor :cache
 
-    def initialize
+    def initialize(*args)
       @cache = ACTIVESUPPORT_CACHE
     end
 
-    private
+    protected
 
     def trees_list
       cache.read(:trees_list)

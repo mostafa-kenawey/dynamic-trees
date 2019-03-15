@@ -1,8 +1,16 @@
 # README
 
+
 ## dynamic-trees
 
-API for dynamic Trees
+API for dynamic Trees, fetches trees list from https://random-tree.herokuapp.com/
+
+
+## Available API Call:
+
+  > ```/trees``` Return current list of cached trees list
+
+  > ```/trees/new``` Fetch and cache a new list of trees
 
 
 ## Project Details:
@@ -22,8 +30,6 @@ API for dynamic Trees
 
   > copy `config/database.yml` from `config/database.yml.example`
 
-* System dependencies
-
 * Database creation
 
   > run `bundle exec rake db:create`
@@ -31,12 +37,6 @@ API for dynamic Trees
   > run `bundle exec rake db:migrate`
 
   > run `bundle exec rake db:seed`
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 
 ## Production Deploy:
@@ -54,6 +54,11 @@ API for dynamic Trees
 
   > Include test coverage
 
+  > Add Gateway URL to config
+
+
 ## recommendations:
 
-  > for the same implementation it's recommended to use a NoSQL database
+  > For the same implementation it's recommended to use a NoSQL database for storing trees in DB
+
+  > Change caching store to be in caching server

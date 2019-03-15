@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :trees, only: [:index]
+  resources :trees, only: [:index, :new]
 end

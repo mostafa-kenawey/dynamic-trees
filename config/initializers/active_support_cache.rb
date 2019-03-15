@@ -1,0 +1,1 @@
+ACTIVESUPPORT_CACHE = ActiveSupport::Cache::MemoryStore.new
